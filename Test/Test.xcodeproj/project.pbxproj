@@ -18,6 +18,8 @@
 		BF1A97BD1E7A562A006BB06F /* ImageAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A97BC1E7A562A006BB06F /* ImageAnimationVC.swift */; };
 		BF1A97C01E7A916A006BB06F /* TableViewExVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A97BF1E7A916A006BB06F /* TableViewExVC.swift */; };
 		BF1A97C21E7A9188006BB06F /* TableViewEXCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A97C11E7A9188006BB06F /* TableViewEXCell.swift */; };
+		BF1A97C51E7A9C0D006BB06F /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A97C41E7A9C0D006BB06F /* CollectionCell.swift */; };
+		BF1A97C71E7A9C29006BB06F /* CollectionExVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A97C61E7A9C29006BB06F /* CollectionExVC.swift */; };
 		BF32D0591E6EC5FD004595C1 /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF32D0581E6EC5FD004595C1 /* NewVC.swift */; };
 		BF37EB1B1E7115DA00830A8D /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF37EB161E7115DA00830A8D /* FBShimmeringLayer.m */; };
 		BF37EB1C1E7115DA00830A8D /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF37EB181E7115DA00830A8D /* FBShimmeringView.m */; };
@@ -45,6 +47,8 @@
 		BF1A97BC1E7A562A006BB06F /* ImageAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAnimationVC.swift; sourceTree = "<group>"; };
 		BF1A97BF1E7A916A006BB06F /* TableViewExVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExVC.swift; sourceTree = "<group>"; };
 		BF1A97C11E7A9188006BB06F /* TableViewEXCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewEXCell.swift; sourceTree = "<group>"; };
+		BF1A97C41E7A9C0D006BB06F /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		BF1A97C61E7A9C29006BB06F /* CollectionExVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExVC.swift; sourceTree = "<group>"; };
 		BF32D0581E6EC5FD004595C1 /* NewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewVC.swift; sourceTree = "<group>"; };
 		BF37EB131E7115DA00830A8D /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
 		BF37EB141E7115DA00830A8D /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		BF02FD031E67D1670042B129 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				BF1A97C31E7A9BCD006BB06F /* CollectionViewExample */,
 				BF37EB111E7115DA00830A8D /* Shimmer */,
 				BF60977F1E6D27DB009B36BA /* FCAlertView */,
 				BF1A97BE1E7A915A006BB06F /* TableViewExample */,
@@ -121,6 +126,15 @@
 				BF1A97C11E7A9188006BB06F /* TableViewEXCell.swift */,
 			);
 			path = TableViewExample;
+			sourceTree = "<group>";
+		};
+		BF1A97C31E7A9BCD006BB06F /* CollectionViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A97C41E7A9C0D006BB06F /* CollectionCell.swift */,
+				BF1A97C61E7A9C29006BB06F /* CollectionExVC.swift */,
+			);
+			path = CollectionViewExample;
 			sourceTree = "<group>";
 		};
 		BF37EB111E7115DA00830A8D /* Shimmer */ = {
@@ -275,9 +289,11 @@
 				BF1A97C21E7A9188006BB06F /* TableViewEXCell.swift in Sources */,
 				BF37EB1B1E7115DA00830A8D /* FBShimmeringLayer.m in Sources */,
 				BF1A97BD1E7A562A006BB06F /* ImageAnimationVC.swift in Sources */,
+				BF1A97C71E7A9C29006BB06F /* CollectionExVC.swift in Sources */,
 				BF02FD051E67D1670042B129 /* AppDelegate.swift in Sources */,
 				BF32D0591E6EC5FD004595C1 /* NewVC.swift in Sources */,
 				BF1A97C01E7A916A006BB06F /* TableViewExVC.swift in Sources */,
+				BF1A97C51E7A9C0D006BB06F /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
